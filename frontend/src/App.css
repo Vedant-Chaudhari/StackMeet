@@ -1,0 +1,181 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ===== LANDING PAGE ===== */
+.landingPageContainer {
+    width: 100vw;
+    height: 100vh;
+      background: url("/public/background.png")no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.landingPageContainer nav {
+    padding-inline: 2.5rem;
+    padding-block: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.landingPageContainer nav h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.landingPageContainer nav .navlist {
+    display: flex;
+    gap: 1.4rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+.landingPageContainer nav .navlist p {
+    font-size: 1rem;
+}
+
+.landingPageContainer nav .navlist div[role='button'] {
+    background: #D97500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.landingPageContainer nav .navlist div[role='button']:hover {
+    background: #bf6600;
+}
+
+.landingMainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+}
+
+.landingMainContainer > div:nth-child(1) {
+    font-size: 1.8rem;
+    max-width: 50%;
+}
+
+.landingMainContainer > div:nth-child(1) h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+}
+
+.landingMainContainer > div:nth-child(1) p {
+    font-size: 1.1rem;
+    margin-top: 0.8rem;
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button'] {
+    background: #D97500;
+    width: fit-content;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    transition: background 0.2s ease;
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button']:hover {
+    background: #bf6600;
+    cursor: pointer;
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button'] a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.landingMainContainer > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 80vh;
+}
+
+.landingMainContainer > div:nth-child(2) img {
+    height: 60vh;
+    width: auto;
+    object-fit: contain;
+}
+
+/* ===== HOME PAGE ===== */
+.navBar {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.navBar h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #D97500;
+}
+
+.meetContainer {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 4rem;
+    background: #9db7cf;
+    overflow: hidden;
+}
+
+.leftPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.leftPanel h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.rightPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 92vh;
+}
+
+.rightPanel img {
+    height: 60vh;
+    width: auto;
+    object-fit: contain;
+}
+
+
