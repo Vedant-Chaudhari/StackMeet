@@ -34,20 +34,7 @@ A real-time video calling web application built with React, Node.js, and WebRTC.
 - Node.js
 - MongoDB
 
-### Installation
 
-**Clone the repository**
-```bash
-git clone https://github.com/Vedant-Chaudhari/StackMeet.git
-cd StackMeet
-```
-
-**Setup Frontend**
-```bash
-cd frontend
-npm install
-npm start
-```
 
 **Setup Backend**
 ```bash
@@ -56,13 +43,6 @@ npm install
 npm start
 ```
 
-### Environment Variables
-
-Create a `.env` file in the backend folder:
-```
-MONGO_URI=your_mongodb_connection_string
-PORT=8000
-```
 
 ## Usage
 
@@ -76,6 +56,3 @@ PORT=8000
 **Vedant Chaudhari**
 - GitHub: [@Vedant-Chaudhari](https://github.com/Vedant-Chaudhari)
 
-## License
-
-MIT License
