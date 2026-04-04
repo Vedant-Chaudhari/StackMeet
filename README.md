@@ -49,7 +49,7 @@ npm start
 1. Register or login to your account
 2. From the home page, enter a meeting code to join
 3. Share the meeting code with others to invite them
-4. Use the controls to manage audio, video, screen share and chat
+4. Use the controls to manage audio, video, screen share and chats
 
 ## Author
 
